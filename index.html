@@ -1,53 +1,189 @@
 <!DOCTYPE html>
 <html lang="hr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DOOMSZŽ - Naslovnica</title>
-    <link rel="stylesheet" href="css/style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Društvo oboljelih od multiple skleroze Zadarske županije pruža podršku, informacije i usluge za bolju kvalitetu života osoba s MS-om.">
+  <meta name="author" content="Tvoje Ime Prezime">
+  <meta property="og:title" content="DOOMSZZ - Naslovnica">
+  <meta property="og:description" content="Podrška, zajedništvo i informacije za osobe oboljele od multiple skleroze.">
+  <meta property="og:image" content="img/og-image.jpg">
+  <meta property="og:type" content="website">
+  <link rel="icon" href="img/favicon.ico">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Naslovnica - DOOMSZZ</title>
 </head>
 <body>
+  <a class="skip-link" href="#main-content">Preskoči na sadržaj</a>
 
-    <header>
-        <div class="logo">
-            <img src="img/logo.png" alt="DOOMSZŽ Logo" width="150">
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="logo">
+        <span class="logo-mark">MS</span>
+        <span class="logo-text">DOOMSZZ</span>
+      </a>
+
+      <input type="checkbox" id="nav-toggle" class="nav-toggle">
+      <label for="nav-toggle" class="hamburger" aria-label="Otvori navigaciju">
+        <span></span>
+        <span></span>
+        <span></span>
+      </label>
+
+      <nav class="site-nav" aria-label="Glavna navigacija">
+        <ul>
+          <li><a class="active" href="index.html" aria-current="page">Naslovna</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="asistencija.html">Asistencija</a></li>
+          <li><a href="kontakt.html">Kontakt</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <p class="eyebrow">Društvo oboljelih od multiple skleroze</p>
+          <h1>Društvo podrške, informiranja i zajedništva</h1>
+          <p class="hero-text">
+            Pružamo podršku osobama oboljelima od multiple skleroze kroz informiranje,
+            socijalne usluge, osobnu asistenciju i jačanje zajednice u Zadarskoj županiji.
+          </p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="about.html">Saznaj više</a>
+            <a class="btn btn-secondary" href="kontakt.html">Kontaktiraj nas</a>
+          </div>
         </div>
-        <nav>
-            <ul>
-                <li><a href="index.html">Naslovnica</a></li>
-                <li><a href="about.html">O nama</a></li>
-                <li><a href="izvjestaji.html">Izvještaji i planovi</a></li>
-                <li><a href="asistencija.html">Osobna asistencija</a></li>
-                <li><a href="knjiznica.html">Digitalna knjižnica</a></li>
-                <li><a href="kontakt.html">Kontakt</a></li>
-            </ul>
-        </nav>
-    </header>
 
-    <main>
-        <section class="hero">
-            <h1>Dobrodošli u DOOMSZŽ</h1>
-            <p>Društvo oboljelih od multiple skleroze Zadarske županije</p>
-        </section>
+        <div class="hero-card">
+          <p class="card-label">Podrška zajednici</p>
+          <h2>Tu smo za članove i njihove obitelji</h2>
+          <p>
+            Kroz savjetovanje, informiranje i uključivanje u aktivnosti pomažemo
+            osobama s MS-om da lakše ostvare svoja prava i kvalitetniji svakodnevni život.
+          </p>
+        </div>
+      </div>
+    </section>
 
-        <section class="content">
-            <h2>Naši Ciljevi</h2>
-            <ul>
-                <li>Unapređenje prava i socijalnih usluga oboljelih</li>
-                <li>Pružanje podrške članovima</li>
-                <li>Jačanje zajednice</li>
-            </ul>
-        </section>
+    <section class="intro section">
+      <div class="container two-column">
+        <div>
+          <p class="section-tag">O nama</p>
+          <h2>Zajedno gradimo sigurnije i dostojanstvenije okruženje</h2>
+        </div>
+        <div>
+          <p>
+            Naša udruga okuplja osobe oboljele od multiple skleroze, njihove obitelji
+            i sve koji žele pružiti podršku. Djelujemo s ciljem unaprjeđenja prava,
+            dostupnosti usluga i kvalitete života osoba s MS-om.
+          </p>
+          <p>
+            Kroz aktivnosti, informiranje i podršku nastojimo biti oslonac članovima
+            u svakodnevnim izazovima.
+          </p>
+        </div>
+      </div>
+    </section>
 
-        <section class="info">
-            <p><strong>Telefon:</strong> 023 325 260</p>
-            <p><strong>Email:</strong> doomszz@zd.t-com.hr</p>
-        </section>
-    </main>
+    <section class="services section alt-bg">
+      <div class="container">
+        <p class="section-tag center">Naše područje djelovanja</p>
+        <h2 class="section-title center">Što nudimo članovima</h2>
 
-    <footer>
-        <p>&copy; 2025. DOOMSZŽ. Sva prava pridržana.</p>
-    </footer>
+        <div class="cards-grid">
+          <article class="info-card">
+            <div class="icon-circle">01</div>
+            <h3>Informiranje i savjetovanje</h3>
+            <p>
+              Pružamo osnovne informacije o pravima, mogućnostima podrške i načinu
+              ostvarivanja dostupnih usluga.
+            </p>
+          </article>
 
+          <article class="info-card">
+            <div class="icon-circle">02</div>
+            <h3>Osobna asistencija</h3>
+            <p>
+              Podržavamo korisnike kroz pomoć u svakodnevnim aktivnostima i
+              jačanje samostalnosti u životu i zajednici.
+            </p>
+          </article>
+
+          <article class="info-card">
+            <div class="icon-circle">03</div>
+            <h3>Zajednica i podrška</h3>
+            <p>
+              Potičemo povezivanje članova, razmjenu iskustava i osjećaj pripadnosti
+              kroz zajedničke aktivnosti i susrete.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="highlight section">
+      <div class="container highlight-box">
+        <div>
+          <p class="section-tag">Asistencija</p>
+          <h2>Podrška koja olakšava svakodnevni život</h2>
+          <p>
+            Program osobne asistencije pomaže korisnicima u svakodnevnim zadacima,
+            kretanju, obavljanju obveza i većoj uključenosti u zajednicu.
+          </p>
+        </div>
+        <div class="highlight-action">
+          <a class="btn btn-primary" href="asistencija.html">Više o asistenciji</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact-preview section">
+      <div class="container contact-box">
+        <div>
+          <p class="section-tag">Kontakt</p>
+          <h2>Javi nam se za informacije i podršku</h2>
+          <p>
+            Ako želiš saznati više o radu društva, članstvu ili uslugama koje pružamo,
+            slobodno nam se obrati.
+          </p>
+        </div>
+        <a class="btn btn-secondary" href="kontakt.html">Idi na kontakt</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <h2 class="footer-title">DOOMSZZ</h2>
+        <p>
+          Društvo oboljelih od multiple skleroze Zadarske županije.
+        </p>
+      </div>
+
+      <div>
+        <h3>Brzi linkovi</h3>
+        <ul class="footer-links">
+          <li><a href="index.html">Naslovna</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="asistencija.html">Asistencija</a></li>
+          <li><a href="kontakt.html">Kontakt</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h3>Kontakt</h3>
+        <p>Email: info@doomszz.hr</p>
+        <p>Telefon: 023 000 000</p>
+      </div>
+    </div>
+
+    <div class="container footer-bottom">
+      <p>&copy; 2026 DOOMSZZ. Sva prava pridržana.</p>
+    </div>
+  </footer>
 </body>
 </html>
