@@ -498,3 +498,12 @@ label:focus-visible {
     padding: 1.4rem;
   }
 }
+
+.hero-small {
+  padding-top: 4.5rem;
+  padding-bottom: 3.5rem;
+}
+
+.top-space {
+  margin-top: 1.5rem;
+}
