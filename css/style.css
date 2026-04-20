@@ -606,3 +606,10 @@ label:focus-visible {
     grid-template-columns: 1fr;
   }
 }
+
+.logo-image {
+  width: 42px;
+  height: 42px;
+  object-fit: contain;
+  display: block;
+}
