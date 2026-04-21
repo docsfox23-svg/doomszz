@@ -663,7 +663,7 @@ label:focus-visible {
   .hero-home .hero-image-wrap {
     width: 78%;
     margin-left: auto;
-    margin-right: 0;
+    margin-right: auto;
   }
 
   .hero-home .hero-image {
@@ -675,4 +675,12 @@ label:focus-visible {
   .hero-small .hero-card {
     margin-top: 0.5rem;
   }
+}
+
+.hero-home {
+  padding-bottom: 2rem;
+}
+
+.hero-home + .section {
+  padding-top: 1.5rem;
 }
