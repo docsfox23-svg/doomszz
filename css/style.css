@@ -636,3 +636,43 @@ label:focus-visible {
 .hero {
   padding: 5rem 0 5rem;
 }
+
+/* MOBILE HERO FIX */
+@media (max-width: 768px) {
+  .hero-grid {
+    grid-template-columns: 1fr !important;
+    gap: 1.5rem;
+    align-items: start;
+  }
+
+  .hero-card,
+  .hero-image-wrap {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .hero h1 {
+    max-width: 100%;
+  }
+
+  .hero-text {
+    max-width: 100%;
+  }
+
+  /* Naslovnica: slika desno i malo veća */
+  .hero-home .hero-image-wrap {
+    width: 78%;
+    margin-left: auto;
+    margin-right: 0;
+  }
+
+  .hero-home .hero-image {
+    width: 100%;
+    display: block;
+  }
+
+  /* Ostale stranice: kartica normalno ispod teksta */
+  .hero-small .hero-card {
+    margin-top: 0.5rem;
+  }
+}
